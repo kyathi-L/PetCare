@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Prepare and execute the SQL query
-    $sql = "UPDATE credentials SET password = '$new_password' WHERE email = '$email'";
+    $sql = "UPDATE registrations SET password = '$new_password' WHERE email = '$email'";
     if (mysqli_query($conn, $sql)) {
         echo "Password updated successfully";
     } else {
