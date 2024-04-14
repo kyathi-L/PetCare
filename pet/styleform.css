@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://media.istockphoto.com/id/1147997709/photo/woman-with-his-golden-labradoodle-dog-reading-at-home.jpg?s=612x612&w=0&k=20&c=tPyzYzTZbfVGLyoblFks8gYa-ipHkDfQfaNFgeNp6a0=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#formreg {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row {
+    flex-basis: calc(50% - 20px);
+    margin-right: 10px;
+}
+
+.input-row:last-child {
+    margin-right: 0;
+}
+
+.label-input-group {
+    margin-bottom: 20px;
+}
+
+.label-input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.label-input-group input,
+.label-input-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.label-input-group input:hover,
+.label-input-group textarea:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    background-color: #3fa444;
+}
+
+#errorMessages {
+    color: #ff5555;
+    margin-top: 10px;
+}
+#val
+{
+    background-color: #45c34b;
+}
+#val:hover
+{
+    background-color: #359a2e;
+}

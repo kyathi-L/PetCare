@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Photography</title>
+<style>
+  body {
+    background-color: #fcf4e1; /* Baby pink background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .heading {
+    color:  #69be5b;/* Pink heading */
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .description {
+    color: #555; /* Dark grey color */
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  .description:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  }
+  .btn {
+    background-color: #79d06cea; /* Pink button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color:  #69be5c; /* Darker pink on hover */
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .image-container img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+  }
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  .contain {
+        position: relative;
+  }
+  #serv {
+      padding-top: 10px;
+      margin-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      position: absolute;
+      top: 10px; 
+      right: 10px; 
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class contain>
+    <a href="petcareServices.html"><input type="button" value="Back to Services"  class="btn" id="serv"></a>
+</div>
+  <h1 class="heading">Welcome to Our Pet Photography Service</h1>
+  <p class="description">Capture the essence of your beloved pet with our pet photography service at Fur-Ever Fresh Pet Care Services. Our team of skilled photographers specializes in immortalizing the unique personality and beauty of your furry companions through stunning imagery.<br><br>
+    At Fur-Ever Fresh Pet Care Services, we understand the special bond you share with your pet, and we're dedicated to capturing that bond in every photograph. Trust us to deliver high-quality images that celebrate the unique spirit of your furry family member.<br><br>
+    </p>
+  <div class="image-container">
+    <img src="data:image/jpeg;base64,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" alt="Pet Boarding Facility"> 
+    <img src="https://media.istockphoto.com/id/506853536/photo/two-rabbits.jpg?s=612x612&w=0&k=20&c=Gf2lpg_WZt7jJhSs86K2qoZWhjLnC4vQoR6weIXpmko=" alt="Pet Boarding Facility"> 
+    <img src="https://i.insider.com/5b50c3827708e932842421b5?width=750&format=jpeg&auto=webp" alt="Pet Boarding Facility">
+  </div>
+  <a href="photographydatabase.php"><button class="btn">Book Now</button></a>
+</div>
+
+</body>
+</html>

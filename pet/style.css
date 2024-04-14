@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#title
+{
+    text-align: right;
+    font-size: 60px;
+    margin-right: 32%;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+    padding-bottom: 3px;
+}
+#title2
+{
+    margin-top: 0;
+    padding-top: 3px;
+    font-size: 60px;
+    margin-left: 65%;
+}
+#icon
+{
+ height: 80px;  
+ width: 80px; 
+ float: right;
+ margin-right: 30px;
+ margin-top: 7px;
+ padding-top: 5px;
+ padding-right: 30px;
+}
+
+body
+{
+    background-image: url(https://media.istockphoto.com/id/1210341751/photo/happy-mixed-breed-dog-posing-with-a-kitten-on-his-head.jpg?s=612x612&w=0&k=20&c=W-XLvsyFNgl5tjAJ75a8vWdFLSeMOzHrr4j9GEjw3Zo=) ;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    margin-top: 30px;
+    background-size:49%
+    
+    
+}
+#loginForm
+{
+    float: right;
+    margin-right: 15%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#paw
+{
+    height: 60px;
+    width: 60px;
+}

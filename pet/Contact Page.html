@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url(https://media.istockphoto.com/id/1265884839/photo/a-small-dog-and-a-kitten-sleep-at-home.jpg?s=612x612&w=0&k=20&c=VmF-gr24ygpSnZaKBSchc0VgVFW3PlL9IdSXHgVS6XU=) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.678); /* Adjust the alpha channel (last value) */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .brand {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        .info {
+            margin-bottom: 40px;
+            color: #555;
+        }
+
+        .info h3 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .info ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .info ul li {
+            margin-bottom: 10px;
+        }
+
+        .contact-form {
+            background: rgba(255, 255, 255, 0.9); /* Adjust the alpha channel (last value) */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            background-color: #f9f9f9;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form textarea {
+            height: 120px;
+        }
+
+        .contact-form button {
+            background-color: #ff6347;
+            border: none;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 5px;
+            font-size: 16px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #ff4500;
+        }
+        #cont,#add
+        {
+            height: 40px;
+            width: 40px;
+            margin-left: 4px;
+        }
+        #formicon
+        {
+            height: 40px;
+            width: 40px;
+           margin-right: -89%;
+           margin-bottom: -49px;
+
+
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="brand">Contact Us <img src="https://cdn-icons-png.flaticon.com/128/1279/1279250.png" id="cont" alt=""></h1>
+        <div class="info">
+            <h3>Address </h3>
+            <ul>
+                <li>VSN Road, LB Nagar, Hyderabad, Telangana</li>
+                <li>+91 6301111657</li>
+                <li>pawspalace24@gmail.com</li>
+            </ul>
+            <h3>Branches<img src="https://cdn-icons-png.flaticon.com/128/5308/5308566.png" id="add" alt=""></h3>
+            <ul>
+                <li>VSN Road, LB Nagar, Hyderabad</li>
+                <li>Tree Road, SriNagar, Hyderabad</li>
+                <li>Apple Street, Mumbai</li>
+                <li>RK Street, Banjara Hills, Hyderabad</li>
+            </ul>
+            <img src="https://cdn-icons-png.flaticon.com/128/8818/8818011.png" id="formicon" alt="">
+        </div>
+        <div class="contact-form">
+            
+            <form >
+                <input type="text" name="name" placeholder="Your Name" required>
+                <br>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <br>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <br>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
