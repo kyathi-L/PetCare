@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Prepare and execute the SQL query
-    $sql = "SELECT * FROM credentials WHERE email = '$email'";
+    $sql = "SELECT * FROM registrations WHERE email = '$email'";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
