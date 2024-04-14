@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $token = bin2hex(random_bytes(32)); // Generate a 32-character random token
 
     // Update password in the database
-    $sql = "UPDATE credentials SET password_reset_token='$token' WHERE email='$email'";
+    $sql = "UPDATE registrations SET password_reset_token='$token' WHERE email='$email'";
     if ($conn->query($sql) === true) {
         // Password reset successful
         echo "Password reset link sent to your email.";
